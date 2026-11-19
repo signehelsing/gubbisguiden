@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gubbis-guiden</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png?v=10">
+
+</head>
+<body>
+
+<!-- Webbplatsens huvudrubrik -->
+ <header>
+    <h1>Gubbis-guiden</h1>
+    <p>Din guide till Gubbängen!</p>
+ </header>
+
+ <!-- Meny till webbplatsens olika sidor -->
+  <nav>
+    <a href="index.html">Hem</a>
+    <a href="mat.html">Mat</a>
+    <a href="kultur.html">Kultur</a>
+    <a href="upptack.html">Natur</a>
+  </nav>
+
+ 
+
+  <main class="startsida"> 
+    
+    <!-- Startsidans bildspel -->
+    <div class="bildspel">
+    
+    
+     <figure class="bild">
+        <img src="gubbis.jpg" alt="Skylt vid Gubbängens tunnelbanestation">
+        <figcaption>Foto: Hemnet.se</figcaption>
+    </figure>
+
+      <figure class="bild">
+        <img src="blommor.jpg" alt="Florist i Gubbängen">
+        <figcaption>Foto: Hemnet.se</figcaption>
+    </figure>
+
+      <figure class="bild">
+        <img src="torg.jpg" alt="Gubbängstorget">
+        <figcaption>Foto: Hemnet.se</figcaption>
+    </figure>
+
+    <!-- Pilar för att byta bild -->
+      <button id="forra" aria-label="Föregående bild">❮</button>
+      <button id="nasta" aria-label="Nästa bild">❯</button>
+  
+     </div>
+
+ </main>
+  
+<!-- Kopplar JavaScript till bildspelet -->
+    <script src="script.js"></script>
+</body>
+</html>

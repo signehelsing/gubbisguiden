@@ -9,7 +9,7 @@ body {
 
 /* Sidans översta del */
 header {
-   background-color:#D76A3A;
+   background-color:#e8e784;
    text-align: center;
    padding: 50px 20px;
 
@@ -18,7 +18,7 @@ header {
 /* Huvudrubrik */
 h1 {
     font-size: 65px;
-    color:#FFF4E0;
+    color:#304B36;
     margin: 0;
 
 }
@@ -26,7 +26,7 @@ h1 {
 /* Text under rubrik */
 header p {
     font-size: 20px;
-    color: #FFF4E0
+    color: ##304B36;
 
 }
 
@@ -58,7 +58,7 @@ main {
 /* Underrubriker */
 h2 {
     font-size: 36px;
-    color: #D76A3A
+    color: #304B36
     
 }
 
